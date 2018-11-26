@@ -46,6 +46,7 @@ def tah_pocitace(pole, symbol):
         elif str_mezera_mezi in pole:
             pc_cislo_pole = pole.index(str_mezera_mezi)
 
+# nefunguje 
         elif "xx-" in pole:
             pc_cislo_pole = pole.index("xx-")+2
 
